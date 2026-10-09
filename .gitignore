@@ -1,0 +1,24 @@
+# --- Secrets: real config files are never committed ---
+/config/config.php
+/Dealer/dealerConfig/config.php
+
+# --- Database dumps containing user data ---
+/sql_database.sql
+/sql_database(1).sql
+
+# --- Third-party UI assets (AdminLTE template, ~82 MB each) ---
+# Download the AdminLTE 3 template separately, see README for the link.
+/assets
+/Dealer/assets
+
+# --- Upstream AdminLTE template source (Astro/SCSS/TS) ---
+/src
+
+# --- Editor / OS files ---
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Local environment ---
+.env
