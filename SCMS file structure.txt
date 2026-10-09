@@ -1,0 +1,172 @@
+SCMS/
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── admin.css
+│   ├── js/
+│   │   ├── main.js
+│   │   └── admin.js
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── banner.jpg
+│   ├── dist/
+│   │   ├── css
+│   │   |   ├──all css files
+│   │   ├── js
+│   │   |   ├──all js files
+│   │   └── img
+│   │   |   ├──all img files
+│   ├── plugins/
+│   │   └── all plugines folders
+├── classes/
+│   ├── Database.php
+│   ├── BaseModel.php
+│   ├── Customer.php
+│   ├── Complaint.php
+│   ├── Technician.php
+│   ├── Dealer.php
+│   └── ServiceCall.php
+├── config/
+│   └── config.php
+├── includes/
+│   ├── asidde-end.php
+│   ├── asidde-st.php
+│   ├── footer.php
+│   ├── link.php
+│   ├── navbar.php
+│   ├── script.php
+│   └── preloder.php
+├── pages/
+│   ├── customer/
+│   │   ├── register.php
+│   │   ├── update.php
+│   │   └── show.php
+│   ├── complaint/
+│   │   ├── register.php
+│   │   ├── update.php
+│   │   └── show.php
+│   ├── technician/
+│   │   ├── assign.php
+│   │   ├── profile.php
+│   │   └── availability.php
+│   ├── dealer/
+│   │   ├── register.php
+│   │   ├── update.php
+│   │   └── show.php
+│   ├── servicecall/
+│   │   ├── register.php
+│   │   ├── update.php
+│   │   ├── show.php
+│   │   └── update_form.php
+│   └── dashboard/
+│       ├── admin.php
+│       └── dealer.php
+├── public/
+│   ├── index.php
+│   ├── login.php
+│   └── logout.php
+└── 
+
+_________________________________________________________________________________________________________________________________________
+
+linux comand for file structer
+
+
+mkdir SCMS
+cd SCMS
+mkdir assets classes config includes pages public
+mkdir assets/css assets/js assets/images
+mkdir pages/customer pages/complaint pages/technician pages/dealer pages/servicecall pages/dashboard
+touch assets/css/style.css assets/js/main.js assets/js/admin.js
+touch classes/Database.php classes/BaseModel.php classes/Customer.php classes/Complaint.php classes/Technician.php classes/Dealer.php classes/ServiceCall.php
+touch config/config.php
+touch includes/header.php includes/footer.php includes/navbar.php
+touch public/index.php public/login.php public/logout.php
+touch pages/customer/register.php pages/customer/update.php pages/customer/show.php
+touch pages/complaint/register.php pages/complaint/update.php pages/complaint/show.php
+touch pages/technician/assign.php pages/technician/profile.php pages/technician/availability.php
+touch pages/dealer/register.php pages/dealer/update.php pages/dealer/show.php
+touch pages/servicecall/register.php pages/servicecall/update.php pages/servicecall/show.php pages/servicecall/update_form.php
+touch pages/dashboard/admin.php pages/dashboard/dealer.php
+
+
+_________________________________________________________________________________________________________________________________________
+
+windows powershell comand for file structer
+
+mkdir SCMS
+cd SCMS
+_________________________________________________________________________________________________________________________________________
+ Create Directories and Files with Elevated Privileges
+Now, create the directories and files:
+
+Create Directories
+powershell
+Copy code
+mkdir assets
+mkdir assets\css
+mkdir assets\js
+mkdir assets\images
+
+mkdir classes
+mkdir config
+mkdir includes
+
+mkdir pages
+mkdir pages\customer
+mkdir pages\complaint
+mkdir pages\technician
+mkdir pages\dealer
+mkdir pages\servicecall
+mkdir pages\dashboard
+
+mkdir public
+_________________________________________________________________________________________________________________________________________
+Create Files
+powershell
+Copy code
+New-Item -Path assets\css\style.css -ItemType File
+New-Item -Path assets\js\main.js -ItemType File
+New-Item -Path assets\js\admin.js -ItemType File
+
+New-Item -Path classes\Database.php -ItemType File
+New-Item -Path classes\BaseModel.php -ItemType File
+New-Item -Path classes\Customer.php -ItemType File
+New-Item -Path classes\Complaint.php -ItemType File
+New-Item -Path classes\Technician.php -ItemType File
+New-Item -Path classes\Dealer.php -ItemType File
+New-Item -Path classes\ServiceCall.php -ItemType File
+
+New-Item -Path config\config.php -ItemType File
+
+New-Item -Path includes\header.php -ItemType File
+New-Item -Path includes\footer.php -ItemType File
+New-Item -Path includes\navbar.php -ItemType File
+
+New-Item -Path pages\customer\register.php -ItemType File
+New-Item -Path pages\customer\update.php -ItemType File
+New-Item -Path pages\customer\show.php -ItemType File
+
+New-Item -Path pages\complaint\register.php -ItemType File
+New-Item -Path pages\complaint\update.php -ItemType File
+New-Item -Path pages\complaint\show.php -ItemType File
+
+New-Item -Path pages\technician\assign.php -ItemType File
+New-Item -Path pages\technician\profile.php -ItemType File
+New-Item -Path pages\technician\availability.php -ItemType File
+
+New-Item -Path pages\dealer\register.php -ItemType File
+New-Item -Path pages\dealer\update.php -ItemType File
+New-Item -Path pages\dealer\show.php -ItemType File
+
+New-Item -Path pages\servicecall\register.php -ItemType File
+New-Item -Path pages\servicecall\update.php -ItemType File
+New-Item -Path pages\servicecall\show.php -ItemType File
+New-Item -Path pages\servicecall\update_form.php -ItemType File
+
+New-Item -Path pages\dashboard\admin.php -ItemType File
+New-Item -Path pages\dashboard\dealer.php -ItemType File
+
+New-Item -Path public\index.php -ItemType File
+New-Item -Path public\login.php -ItemType File
+New-Item -Path public\logout.php -ItemType File
